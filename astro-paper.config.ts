@@ -29,8 +29,8 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github", url: "https://github.com/bobosco" },
-    { name: "mail", url: "mailto:hello@example.com" },
+    { name: "github", url: "https://github.com/uran0sH" },
+    { name: "mail", url: "mailto:huangwenyuu@outlook.com" },
   ],
   shareLinks: [
     { name: "x", url: "https://x.com/intent/post?url=" },

@@ -1,37 +1,45 @@
 ---
 title: 关于我
-description: Bosco 的个人简介、工作经历和项目。
+description: Bosco 的个人简介、经历与项目。
 ---
 
-你好，我是 **Bosco**，一名工程师和开发者。我热爱用代码解决真实世界的问题，关注 Web 技术、开源工具与工程师文化。工作之外，我喜欢写作、阅读和折腾各种新鲜玩意。
+你好，我是 Bosco。平时主要写 Rust, C/C++, Python。关注操作系统，编译器等系统领域。热衷于参与开源项目。
 
-这个网站是我的数字自留地——博客记录思考，这里留下脚印。
+## 工作经历
 
-## 经历
+### 2026.08 至今 · 上海太衍私募基金 · 交易系统开发
 
-### 2023.07 — 至今 · 某科技公司 · 高级软件工程师
+做量化交易系统和结算系统的开发，主要用 C++ 和 Python。
 
-负责核心产品的前端架构设计与性能优化，主导从单体应用到模块化架构的迁移，带领小组完成多个重点项目交付。
+### 2023.11 — 2026.06 · 华为 · 操作系统工程师
 
-### 2021.06 — 2023.06 · 某互联网公司 · 软件工程师
+维护和开发Linux内核调度模块。AI训练任务的checkpoint和restore。
 
-参与大流量 Web 应用的开发与维护，负责业务组件库建设，推动 CI/CD 流程落地，显著缩短发布周期。
+## 教育经历
 
-### 2017.09 — 2021.06 · 某大学 · 计算机科学与技术 本科
+### 2021 — 2023 · 香港中文大学（深圳）· 计算机与信息工程 硕士
 
-系统学习计算机基础课程，参与校内开源社团与多个编程竞赛，毕业设计获得院系优秀论文。
+GPA 3.5/4.0，研究方向是高性能键值存储，论文做的是基于 LevelDB 的高读性能 LSM-Tree KV 存储。
 
-> 以上经历为示例内容，替换成你自己的真实信息即可，直接编辑 `src/content/pages/about.md`。
+### 2017 — 2021 · 武汉理工大学 · 软件工程 本科
+
+GPA 4.0/5.0，专业前 10%。
+
+## 项目
+
+- **[boxlite](https://github.com/boxlite-ai/boxlite)**：一个 Rust 写的嵌入式 Agent 沙箱，我负责稳定性治理、镜像格式兼容和 CI 效能
+- **GSoC 2025**：主导 rust-vmm vhost-user 模块向 macOS/FreeBSD 的移植，入选 Google Summer of Code
 
 ## 技能
 
-- **前端**：React、TypeScript、Vite、Tailwind CSS
-- **后端**：Node.js、Python、Go、PostgreSQL、Redis
-- **工程效率**：Git、Docker、CI/CD、Linux
+- **语言**：Rust、C/C++、Python、Go
+- **工具**：Docker、Kubernetes、Git、Shell
+- **关注方向**：操作系统、数据库
 
 ## 联系我
 
-- GitHub：[github.com/bobosco](https://github.com/bobosco)
-- 邮件：hello@example.com
+- GitHub：[uran0sH](https://github.com/uran0sH)
+- 博客：[cnblogs.com/uran0sh](https://www.cnblogs.com/uran0sh)
+- 邮件：huangwenyuu@outlook.com
 
-欢迎交流技术、工具或任何有趣的话题。
+欢迎交流技术、开源，或者任何有意思的话题。
