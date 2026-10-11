@@ -28,7 +28,7 @@ GPA 4.0/5.0，专业前 10%。
 ## 项目
 
 - **[boxlite](https://github.com/boxlite-ai/boxlite)**：一个 Rust 写的嵌入式 Agent 沙箱，我负责稳定性治理、镜像格式兼容和 CI 效能
-- **GSoC 2025**：主导 rust-vmm vhost-user 模块向 macOS/FreeBSD 的移植，入选 Google Summer of Code
+- **[GSoC 2025](https://summerofcode.withgoogle.com/archive/2025/projects/XRKi5dM)**：主导 rust-vmm vhost-user 模块向 macOS/FreeBSD 的移植，入选 Google Summer of Code
 
 ## 技能
 

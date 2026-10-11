@@ -28,7 +28,7 @@ GPA 4.0/5.0, top 10%.
 ## Projects
 
 - **[boxlite](https://github.com/boxlite-ai/boxlite)**: an embedded agent sandbox written in Rust — I work on stability, image-format compatibility and CI efficiency
-- **GSoC 2025**: led the rust-vmm vhost-user port to macOS/FreeBSD, funded by Google Summer of Code
+- **[GSoC 2025](https://summerofcode.withgoogle.com/archive/2025/projects/XRKi5dM)**: led the rust-vmm vhost-user port to macOS/FreeBSD, funded by Google Summer of Code
 
 ## Skills
 
