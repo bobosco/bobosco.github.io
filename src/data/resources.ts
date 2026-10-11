@@ -13,6 +13,15 @@ export interface Resource {
 
 export const resources: Resource[] = [
   {
+    file: "resume_with_transcript.pdf",
+    name: { zh: "简历（含成绩单）", en: "Resume (with transcript)" },
+    description: {
+      zh: "包含成绩单的简历(20261011更新)",
+      en: "Resume with transcript (updated 2026-10-11)",
+    },
+    date: "2026-10-11",
+  },
+  {
     file: "README.txt",
     name: { zh: "使用说明", en: "Read Me" },
     description: {
