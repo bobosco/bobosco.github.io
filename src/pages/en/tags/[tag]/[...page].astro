@@ -1,0 +1,12 @@
+---
+import type { GetStaticPaths } from "astro";
+import TagPosts from "@/components/routes/TagPosts.astro";
+import { getTagPostsPaths } from "@/utils/routePaths";
+
+export const getStaticPaths = (async ({ paginate }) =>
+  getTagPostsPaths(paginate, "en")) satisfies GetStaticPaths;
+
+const { page, tagName } = Astro.props;
+---
+
+<TagPosts page={page} tagName={tagName} />

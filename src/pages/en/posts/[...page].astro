@@ -1,0 +1,12 @@
+---
+import type { GetStaticPaths } from "astro";
+import Posts from "@/components/routes/Posts.astro";
+import { getPostsIndexPaths } from "@/utils/routePaths";
+
+export const getStaticPaths = (async ({ paginate }) =>
+  getPostsIndexPaths(paginate, "en")) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<Posts page={page} />
